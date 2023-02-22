@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_clear_all"
+        android:id="@+id/item_clear"
+        android:title="@string/clear_values"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/ic_content_copy"
+        android:id="@+id/item_copy"
+        android:visible="false"
+        android:title="@string/copy"
+        app:showAsAction="ifRoom"/>
+</menu>

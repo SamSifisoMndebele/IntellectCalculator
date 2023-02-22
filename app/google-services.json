@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "695752359762",
+    "project_id": "intellect-calculator",
+    "storage_bucket": "intellect-calculator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695752359762:android:5afe35bdfb38612e1d448b",
+        "android_client_info": {
+          "package_name": "com.avidco.intellectcalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695752359762-57mu7nc2mfgaul8l9ahhiepkkuicvvme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGEC2GIZb3w1CZIdrvpkfAKo61LJBkiIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695752359762-57mu7nc2mfgaul8l9ahhiepkkuicvvme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-2845958345291323~8037527990"
+    }
+  ],
+  "configuration_version": "1"
+}

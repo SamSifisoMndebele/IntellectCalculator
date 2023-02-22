@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbars="vertical"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:lines="1"
+        android:textSize="22sp"
+        android:layout_marginStart="54dp"
+        android:text="@string/trace_table_bold"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:fontFamily="@font/normal"/>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="48dp"
+            android:orientation="vertical">
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp"
+                style="@style/Theme.IntellectCalculator.CardBackground">
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/jura_medium"
+                            android:textSize="18sp"
+                            android:text="Postfix Trace Table"
+                            android:textStyle="bold" />
+                        <TableRow
+                            android:id="@+id/postfix_table_heading_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                style="@style/table_header"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_column="0"
+                                android:layout_weight="1"
+                                android:textAlignment="center"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:text="@string/character_scanned"/>
+
+                            <TextView
+                                android:layout_height="50dp"
+                                android:layout_width="0dp"
+                                android:layout_column="1"
+                                android:layout_weight="2"
+                                android:text="@string/stack"
+                                style="@style/table_header"
+                                android:textAlignment="center"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:layout_height="50dp"
+                                android:layout_width="0dp"
+                                android:layout_column="2"
+                                android:layout_weight="3"
+                                android:text="@string/postfix_expression"
+                                style="@style/table_header"
+                                android:textAlignment="center"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"/>
+                        </TableRow>
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/postfix_table_recycler_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/table_heading_layout"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginTop="16dp"
+                            android:fontFamily="@font/jura_medium"
+                            android:textSize="18sp"
+                            android:text="Prefix Trace Table"
+                            android:textStyle="bold" />
+                        <TableRow
+                            android:id="@+id/prefix_table_heading_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                style="@style/table_header"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_column="0"
+                                android:layout_weight="1"
+                                android:textAlignment="center"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:text="@string/character_scanned"/>
+
+                            <TextView
+                                android:layout_height="50dp"
+                                android:layout_width="0dp"
+                                android:layout_column="1"
+                                android:layout_weight="2"
+                                android:text="@string/stack"
+                                style="@style/table_header"
+                                android:textAlignment="center"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:layout_height="50dp"
+                                android:layout_width="0dp"
+                                android:layout_column="2"
+                                android:layout_weight="3"
+                                android:text="@string/prefix_expression"
+                                style="@style/table_header"
+                                android:textAlignment="center"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"/>
+                        </TableRow>
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/prefix_table_recycler_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/table_heading_layout"/>
+                    </LinearLayout>
+
+                </androidx.core.widget.NestedScrollView>
+
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

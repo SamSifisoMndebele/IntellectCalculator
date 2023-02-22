@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name"><b>Intellect</b> Calculator</string>
+
+    <string name="valid_digits">aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ0123456789.*×/%÷—-+^>&#60;≥≤=≠( )</string>
+    <string name="title_home">Home</string>
+    <string name="stack">Stack</string>
+    <string name="postfix_expression">Postfix Expression</string>
+    <string name="character_scanned">Character Scanned</string>
+    <string name="prefix_expression">Prefix Expression</string>
+    <string name="my_node">Node</string>
+    <string name="infix_expression">Infix Expression</string>
+    <string name="postfix">Postfix</string>
+    <string name="infix">Infix</string>
+    <string name="prefix">Prefix</string>
+    <string name="colon">:</string>
+    <string name="evaluate">Evaluate</string>
+    <string name="convert">Convert</string>
+    <string name="spaces_in_between_numbers">Note: Enter your numbers with SPACES in between. e.g. 12\t3 +</string>
+    <string name="error_spaces_in_between_numbers">Error: Enter your numbers with SPACES in between. e.g. 12\t3 +</string>
+    <string name="convert_postfix_to_prefix_infix">Convert Postfix to Prefix/Infix</string>
+    <string name="convert_prefix_to_infix_postfix">Convert Prefix to Infix/Postfix</string>
+    <string name="convert_infix_to_prefix_postfix">Convert Infix to Prefix/Postfix</string>
+    <string name="default_prefix">=+ S* T U+-×/ I N T%*÷ E L^ L E C T</string>
+    <string name="default_infix">S+T*U=I/N×T-E÷L*L^E%C+T</string>
+    <string name="default_postfix">S T U*+ I N/ T× E L÷ L E^* C%- T+=</string>
+    <string name="complement1">1\'s Complement</string>
+    <string name="complement2">2\'s Complement</string>
+    <string name="contact_email">avidco663@gmail.com</string>
+    <string name="contact">Contact Us</string>
+    <string name="decimal">Base Decimal</string>
+    <string name="decimal_number">Decimal Number</string>
+    <string name="fragment_floating">Floating point</string>
+    <string name="fragment_how_to">How to convert?</string>
+    <string name="fragment_signed">Signed</string>
+    <string name="gmail_not_installed">Gmail not installed</string>
+
+    <string name="floating_decimal">Floating Point Decimal</string>
+    <string name="single_ieee754">IEEE-754 Single Precision 32-bit</string>
+    <string name="double_ieee754">IEEE-754 Double Precision 64-bit</string>
+
+    <string name="ascii">ASCII Characters</string>
+    <string name="bases">Numerical Bases</string>
+    <string name="binary">Binary</string>
+    <string name="clear_list">Clear List</string>
+    <string name="copied">Copied to clipboard</string>
+    <string name="copy">Copy to clipboard</string>
+    <string name="octal">Octal</string>
+    <string name="signed_decimal">Signed Decimal</string>
+    <string name="answer">Answer</string>
+    <string name="history">History</string>
+    <string name="tree_diagram">Tree Diagram</string>
+    <string name="trace_table">Trace Table</string>
+    <string name="calculations">Calculations</string>
+    <string name="more_info">More Info</string>
+    <string name="floating_point_notation">Floating-Point Notation</string>
+    <string name="complement_notation">Complement Notation</string>
+    <string name="excess_notation">Excess Notation</string>
+    <string name="bases_convert">Bases Convert</string>
+    <string name="karnaugh_map">Karnaugh Map</string>
+    <string name="share_the_app">Share the app</string>
+    <string name="clear_values">Clear Values</string>
+    <string name="copy_value">Copy Value</string>
+    <string name="hexadecimal">Hexadecimal</string>
+    <string name="fragment_base_convert">Bases Convert</string>
+    <string name="feedback">Feedback</string>
+    <string name="rate_app">Rate the app</string>
+    <string name="excess_identifier">Excess Identifier</string>
+    <string name="_8">8</string>
+    <string name="number_of_bits">Number of Bits</string>
+    <string name="_128">128</string>
+
+
+    <string name="help_bases">To convert a number to a base N, you need to divide that number by N until the quotient is 0. Just write the remainders backwards.</string>
+    <string name="help_binary_example">Convert 11 (binary) to decimal:\n1*2^1 + 1*2^0 = 2 + 1 = 3 decimal \n\nConvert 20 (decimal) to binary (2):\n\n\n20/2 = remainder 0 and 10\n\n10/2 = remainder 0 and 5\n\n5/2 = remainder 1 and 2\n\n2/2 = remainder 0 and 1\n\n1/2 = remainder 1 and 0\n \n\n\n\n10100</string>
+    <string name="help_complement1">\n\nTo represent as 1\'s complement, the number must be converted to binary normally. If the number is negative, the value of the bits must be inverted (1 becomes 0, and vice versa), otherwise the first bit must be 0. \n\n\nTo convert to decimal, if the first bit is 1, invert all bits, convert and the number is negative. Otherwise, convert normally and the number is positive.</string>
+    <string name="help_complement2">\n\nTo represent as 2\'s complement, the number must be converted to binary normally. If the number is negative, you must invert the value of the bits (1 becomes 0, and vice versa) and add 1, otherwise the first bit must be 0. \n\n\nTo convert to decimal, if the first bit is 1, invert all bits, convert, subtract 1 and the number is negative. Otherwise, convert normally and the number is positive.</string>
+    <string name="help_double_ieee754_content">\n\nTo convert to IEEE754 64-bits, use 1 bit for sign, 11 bits for exponent and 52 bits for mantissa. Convert the integer and fractional part, normalize the binary value (leaving it with 1 digit before the decimal) and convert (1023+exponent) to binary. The result is (mantissa exponent sign)</string>
+    <string name="help_double_ieee754_example">Ex: 111.01 → 1.1101 * 2² (1023+2 → 100000000001).\n0 100000000001 11010000000000000000000000\n00000000000000000000000000</string>
+    <string name="help_example_complement1">-7 → 1000\n\n\n-15 → 1111 0000\n +7 → 0111\n\n\n +15 → 0000 1111</string>
+    <string name="help_example_complement2">-7 → 1001\n\n\n-15 → 1111 0001\n+7 → 0111\n\n\n+15 → 0000 1111</string>
+    <string name="help_example_magnitude">-7 → 1111\n\n\n-15 → 1000 1111\n +7 → 0111\n\n\n +15 → 0000 1111</string>
+    <string name="help_floating_header">There are two types of representation: \n\n• IEEE754\n\n• IEEE754 64-bit</string>
+    <string name="help_hex_content">A base 16 tem a peculiaridade de possuir letras, onde A = 10, B = 11, C = 12, D = 13, E = 14 e F = 15.</string>
+    <string name="help_hex_example">Convert AB (hex) to decimal:\nA*16^1 + B*16^0 = 160 + 11 → 171 decimal\n\nConvert 171 (decimal) to hex (16):\n\n\n171/16 = remainder 11(B) and 10\n\n10/16 = remainder 10(A) and 0\n\n\n\n\n\nAB</string>
+    <string name="help_ieee754_content">\n\nTo convert to IEEE754, use 1 bit for sign, 8 bits for exponent and 23 bits for mantissa. Convert the integer and fractional part, normalize the binary value (leaving it with 1 digit before the decimal point) and convert (127+exponent) to binary. The result is (mantissa exponent sign)</string>
+    <string name="help_ieee754_example">Ex: 111.01 → 1.1101 * 2² (127+2 → 10000001).\n0 10000001 11010000000000000000000</string>
+    <string name="help_ieee754_example2">Ex: 0 10000001 11010000000000000000000 →\n(129–127 = 2) → 1.1101 * 2² = 111.01\nConvert 111 and 0.01 (0*2^0 + 0*2^-1 + 1*2^-2) →\n7 .25 in decimal</string>
+    <string name="help_magnitude">\n\nTo represent as Sign and Magnitude, the first bit must be used for the sign and the other bits for the binary value. The first bit being 0 for positive and 1 for negative, there is a failure of two representations for 0 (1000 and 0000). \n\nTo get the decimal, convert the binary normally and if the first bit is 1, add the minus sign.</string>
+    <string name="help_octal">Convert 24 (octal) to decimal:\n2*8^1 + 4*8^0 = 16 + 4 → 20 decimal\n\nConvert 20 (decimal) to octal (8):\n\n\n20/8 = remainder 4 and 2\n\n2/8 = remainder 2 and 0\n\n\n\n\n\n24</string>
+    <string name="help_signed_header">There are three types of representation: \n\n• Sign and Magnitude\n\n• 1\'s Complement\n\n• 2\'s Complement</string>
+    <string name="help_signed_title">Signed decimal for binary:</string>
+    <string name="title_activity_convertion">ConvertionActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_expressions">ExpressionsActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="polish_expressions">Polish Expressions</string>
+    <string name="expressions_history"><b>Expressions</b> History</string>
+    <string name="prefix_infix_postfix_trace_table_and_tree_diagram">Prefix, Infix, Postfix, Trace Table and Tree Diagram</string>
+    <string name="number_systems">Number Systems</string>
+    <string name="binary_decimal_floating_point_1s_snd_2s_compliment">Binary, Decimal, Excess Notation, 1s snd 2s Compliment </string>
+    <string name="_bases">Bases</string>
+    <string name="excess">Excess</string>
+    <string name="complement">Complement</string>
+
+    <string name="polish_expressions_bold"><b>Polish</b> Expressions</string>
+    <string name="trace_table_bold"><b>Trace</b> Table</string>
+    <string name="tree_diagram_bold"><b>Tree</b> Diagram</string>
+
+    <string name="outputIsEqualTo">S =</string>
+    <string name="karnaugh_maps">Karnaugh Maps</string>
+    <string name="karnaugh_map_4var"><b>Karnaugh Map</b> 4 Var</string>
+    <string name="karnaugh_map_3var"><b>Karnaugh Map</b> 4 Var</string>
+    <string name="karnaugh_map_2var"><b>Karnaugh Map</b> 4 Var</string>
+    <string name="d">D</string>
+    <string name="c">C</string>
+    <string name="or">OR</string>
+    <string name="not">NOT</string>
+    <string name="simply_boolean_expression">Simply Boolean Expression</string>
+
+
+    <string name="activity_expressions_banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="activity_main_banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="activity_karnaugh_banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="activity_numbers_banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="activity_expressions_history_banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="activity_main_interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="activity_expressions_history_interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!--<string name="activity_expressions_banner_ad_unit_id">ca-app-pub-2845958345291323/9887604201</string>
+    <string name="activity_main_banner_ad_unit_id">ca-app-pub-2845958345291323/4625052129</string>
+    <string name="activity_karnaugh_banner_ad_unit_id">ca-app-pub-2845958345291323/1003154279</string>
+    <string name="activity_numbers_banner_ad_unit_id">ca-app-pub-2845958345291323/4894561153</string>
+    <string name="activity_expressions_history_banner_ad_unit_id">ca-app-pub-2845958345291323/4493190189</string>
+    <string name="activity_main_interstitial_ad_unit_id">ca-app-pub-2845958345291323/4771008893</string>
+    <string name="activity_expressions_history_interstitial_ad_unit_id">ca-app-pub-2845958345291323/7532903604</string>-->
+
+
+    <string name="_4_variables">4 Variables</string>
+    <string name="_3_variables">3 Variables</string>
+    <string name="_2_variables">2 Variables</string>
+    <string name="bases_convert_bold"><b>Bases</b> Convert</string>
+    <string name="excess_notation_bold"><b>Excess</b> Notation</string>
+    <string name="complement_notation_bold"><b>Complement</b> Notation</string>
+    <string name="floating_point_bold"><b>Floating</b> Point</string>
+    <string name="floating_point">Floating Point</string>
+    <string name="an_error_occurred">An error occurred</string>
+    <string name="cancel">Cancel</string>
+    <string name="loading">Loading...</string>
+</resources>

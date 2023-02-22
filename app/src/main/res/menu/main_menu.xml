@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_rate"
+        android:title="@string/rate_app"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/item_share"
+        android:title="@string/share_the_app"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/item_feedback"
+        android:title="@string/feedback"
+        app:showAsAction="never"/>
+    <!--<item
+        android:icon="@drawable/ic_menu"
+        android:id="@+id/empty"
+        android:title=""
+        app:showAsAction="always"
+        >
+        <menu>
+            <item
+                android:icon="@drawable/ic_star_rate"
+                android:id="@+id/item_rate"
+                android:title="@string/rate_app"/>
+            <item
+                android:icon="@drawable/ic_share"
+                android:id="@+id/item_share"
+                android:title="@string/share_the_app"/>
+            <item
+                android:id="@+id/item_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="@string/feedback"/>
+            &lt;!&ndash;<item
+        android:id="@+id/item_info"
+        android:icon="@drawable/ic_info"
+        android:title="Info"
+        app:showAsAction="never|withText"/>&ndash;&gt;
+        </menu>
+    </item>-->
+</menu>

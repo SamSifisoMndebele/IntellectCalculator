@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_expressions"
+        android:icon="@drawable/ic_operator"
+        android:title="@string/convert" />
+
+    <item
+        android:id="@+id/navigation_tree_diagram"
+        android:icon="@drawable/ic_diagram"
+        android:title="@string/tree_diagram" />
+
+    <item
+        android:id="@+id/navigation_trace_table"
+        android:icon="@drawable/ic_table"
+        android:title="@string/trace_table" />
+
+    <item
+        android:id="@+id/navigation_info"
+        android:icon="@drawable/ic_info"
+        android:title="@string/more_info" />
+
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/expressions_navigation"
+    app:startDestination="@+id/navigation_expressions">
+
+    <fragment
+        android:id="@+id/navigation_expressions"
+        android:name="com.avidco.intellectcalculator.ui.expressions.ExpressionsFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_expressions" />
+    <fragment
+        android:id="@+id/navigation_tree_diagram"
+        android:name="com.avidco.intellectcalculator.ui.expressions.treediagram.TreeFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_tree_diagram" />
+    <fragment
+        android:id="@+id/navigation_trace_table"
+        android:name="com.avidco.intellectcalculator.ui.expressions.tracetable.TraceTableFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_trace_table"/>
+
+</navigation>

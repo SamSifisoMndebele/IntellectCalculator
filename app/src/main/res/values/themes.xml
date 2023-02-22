@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.IntellectCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorPrimary</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.IntellectCalculator.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/icon_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.IntellectCalculator</item>
+    </style>
+
+    <style name="Theme.IntellectCalculator.AppBarOverlay" parent="ThemeOverlay.AppCompat.DayNight" />
+
+    <style name="Theme.IntellectCalculator.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="table_header" parent="@android:style/TextAppearance.Small">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">#727272</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="table_row_item" parent="@android:style/TextAppearance.Small">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="Theme.IntellectCalculator.CardBackground" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/colorGreen</item>
+    </style>
+
+    <style name="Theme.IntellectCalculator.NodeCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/green</item>
+    </style>
+
+    <style name="Theme.IntellectCalculator.ParentNodeCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">#81C784</item>
+    </style>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/number_system_navigation"
+    app:startDestination="@+id/navigation_convert">
+
+    <fragment
+        android:id="@+id/navigation_convert"
+        android:name="com.avidco.intellectcalculator.ui.calculations.ConvertFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_convert"/>
+    <fragment
+        android:id="@+id/navigation_excess"
+        android:name="com.avidco.intellectcalculator.ui.calculations.ExcessFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_excess"/>
+    <fragment
+        android:id="@+id/navigation_complement"
+        android:name="com.avidco.intellectcalculator.ui.calculations.ComplementFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_complement"/>
+    <fragment
+        android:id="@+id/navigation_floating_point"
+        android:name="com.avidco.intellectcalculator.ui.calculations.FloatingPointFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_floating_point"/>
+</navigation>

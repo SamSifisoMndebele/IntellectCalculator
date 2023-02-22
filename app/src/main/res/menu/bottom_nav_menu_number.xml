@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_convert"
+        android:icon="@drawable/ic_bin"
+        android:title="@string/_bases" />
+
+    <item
+        android:id="@+id/navigation_excess"
+        android:icon="@drawable/ic_0111"
+        android:title="@string/excess" />
+
+    <item
+        android:id="@+id/navigation_complement"
+        android:icon="@drawable/ic_1101"
+        android:title="@string/complement" />
+
+    <item
+        android:id="@+id/navigation_floating_point"
+        android:icon="@drawable/ic_0111"
+        android:title="@string/floating_point" />
+
+</menu>
